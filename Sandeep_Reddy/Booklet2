@@ -1,0 +1,24 @@
+
+
+
+***************************************
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2, sum;
+
+    printf("Enter first number: ");
+    scanf("%d", &num1); // Read first integer from user
+
+    printf("Enter second number: ");
+    scanf("%d", &num2); // Read second integer from user
+
+    sum = num1 + num2; // Calculate the sum
+    printf("Sum: %d\n", sum); // Print the sum
+
+    return 0;
+}
+
+******************************************
+
