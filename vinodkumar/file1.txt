@@ -1,0 +1,45 @@
+##########
+
+
+
+
+Amazon Web Services (AWS) cloud platform is experiencing an outage / degraded service that is affecting many services including Amazon itself.
+The Guardian
++3
+The Verge
++3
+Tom's Guide
++3
+
+Here are the key details:
+
+The issue is primarily in the US-EAST-1 region, where AWS is reporting “increased error rates and latencies for multiple AWS Services”.
+Cybernews
++2
+The Verge
++2
+
+Many major apps and platforms that rely on AWS are down or impaired — examples include Snapchat, Fortnite, Ring, as well as Amazon’s own services.
+Tom's Guide
++1
+
+AWS is working on mitigation and recovery.
+The Verge
++1
+
+What you can do / check:
+
+If you’re a user: Try accessing the affected service after some time, or check social media / service status pages for updates.
+
+If you’re an AWS customer: Check the official AWS Health Dashboard: https://health.aws.amazon.com/health/status
+
+AWS Health
++1
+
+Consider whether your infrastructure has dependencies on the US-EAST-1 region — you may need to fail-over to other regions if you have such architecture.
+
+If you tell me which specific service (“Amazon.com checkout”, “AWS console”, “EC2 instance”, etc.) is down for you, I can check whether that service is impacted or not.
+
+
+
+########
