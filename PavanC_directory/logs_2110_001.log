@@ -1,0 +1,300 @@
+    1  exit
+    2  exit
+    3  clear
+    4  gei --help
+    5  hit --help
+    6  git --help
+    7  git --help > PC
+    8  vi PC
+    9  clear
+   10  vim PC
+   11  ls -lrt
+   12  mv PC githelpguide.txt
+   13  ls -lrt
+   14  git --version
+   15  git status
+   16  git init
+   17  git add githelpguide.txt
+   18  ls -lrt
+   19  git status
+   20  clear
+   21  git config --global user.name "Pavan.C"
+   22  git config --global user.email "P12345@email.com"
+   23  git status
+   24  git commit -m "committing the first file to git" githelpguide.txt 
+   25  git status
+   26  clear
+   27  git log
+   28  history > Gitcommands_day01.txt
+   29  vi Gitcommands_day01.txt
+   30  clear
+   31  ls -lrt
+   32  vi githelpguide.txt
+   33  clear
+   34  ls -lrt
+   35  gitstatus
+   36  clear
+   37  git status
+   38  git add .
+   39  git commit -m "Commited the changes to sync phase"
+   40  mkdir git_guide && cd git_guide
+   41  git init
+   42  ls -lat
+   43  cd ..
+   44  ls -lrt
+   45  rm -R git_guide
+   46  ls -lrt
+   47  cd .. && mkdir git_guide && cd git_guide
+   48  git init
+   49  ls -lrt
+   50  config/
+   51  git add firstfile.txt
+   52  touch a.txt
+   53  echo "123456789" >> a.txt
+   54  cat a.txt 
+   55  clear
+   56  ls -lrt
+   57  touch a1..5.txt
+   58  ls -lrt
+   59  rm *
+   60  clear
+   61  touch aa1.txt
+   62  cat "This might be a test file to load to this file" >> aa1.txt
+   63  echo "This might be a test file to load to this file" >> aa1.txt
+   64  ls -lrt
+   65  cat aa1.txt 
+   66  touch {index,content,notes}.md
+   67  echo "this has the content related to index notes" > index.md 
+   68  echo "this has the content related to main contents" > content.md 
+   69  echo "this has the content related to notes to be followed" > notes.md 
+   70  clear
+   71  ls -lrt
+   72  git add .
+   73  git status
+   74  git commit -m "First Commit of the content" 
+   75  git status
+   76  ls -lrt
+   77  mkdir base_dir && mv -f *.md >> base_dir
+   78  ls -lrt
+   79  cd base_dir/
+   80  ls -lrt
+   81  cd ..
+   82  mv *.md ./base_dir/
+   83  ls -lrt
+   84  git add .
+   85  git commit -m "Second commit the confines the files moved to base dir."
+   86  git clone https://github.com/chittaajallupavankumar/success-blueprint.git
+   87  ls -lrt
+   88  mv -f ./base_dir/ ./success-blueprint/
+   89  ls -lrt
+   90  git add .
+   91  ls -lrt
+   92  cd success-blueprint/
+   93  ls -lrt
+   94  git branch
+   95  cd ..
+   96  git branch
+   97  cd -
+   98  git add .
+   99  git commit -m "third commit that states base dir moved to the cloned repo 'success-bluprint'." 
+  100  git status
+  101  git push 
+  102  cd ..
+  103  git push 
+  104  cd -
+  105  ls -lrt
+  106  git push base_dir/
+  107  cd ..
+  108  git push  success-blueprint/
+  109  cd -
+  110  ls -lrt
+  111  git status
+  112  git log
+  113  git push 
+  114  git credential-cache exit
+  115  git remote -v
+  116  git push 
+  117  git push 
+  118  cd -
+  119  git clone https://github.com/technocrat-x26/B1-Group.git
+  120  ls -lrt
+  121  cd B1-Group/
+  122  mkdir PavanC_directory 
+  123  cd PavanC_directory/
+  124  touch PCfile{0..10}.txt
+  125  ls -lrt
+  126  echo "This files hold a rapid content to be updated into the file for skill test" >> PCfile*
+  127  echo "This files hold a rapid content to be updated into the file for skill test" >> PCfile{0..10}.txt
+  128  vi pc.sh
+  129  chmod 777 pc.sh 
+  130  pc.sh
+  131  pc
+  132  ls -ler
+  133  ls -lrt
+  134  chmod 777 pc.sh 
+  135  ls -lrt
+  136  chmod 665 pc.sh
+  137  ls -lrt
+  138  rm -f pc.sh
+  139  echo "This files hold a rapid content to be updated into the file0 for skill test" >> PCfile0.txt
+  140  echo "This files hold a rapid content to be updated into the file1 for skill test" >> PCfile1.txt
+  141  echo "This files hold a rapid content to be updated into the file2 for skill test" >> PCfile2.txt
+  142  echo "This files hold a rapid content to be updated into the file3 for skill test" >> PCfile3.txt
+  143  echo "This files hold a rapid content to be updated into the file4 for skill test" >> PCfile4.txt
+  144  echo "This files hold a rapid content to be updated into the file5 for skill test" >> PCfile5.txt
+  145  echo "This files hold a rapid content to be updated into the file6 for skill test" >> PCfile6.txt
+  146  echo "This files hold a rapid content to be updated into the file7 for skill test" >> PCfile7.txt
+  147  echo "This files hold a rapid content to be updated into the file8 for skill test" >> PCfile8.txt
+  148  echo "This files hold a rapid content to be updated into the file9 for skill test" >> PCfile9.txt
+  149  echo "This files hold all the previous files  rapid content to be updated into the file for skill test" >> PCfile10.txt
+  150  clear
+  151  sl -lrt
+  152  ls -lrt
+  153  git add .
+  154  git commit -m "A commit to load files to the B1-Group repo for analysis" 
+  155  git status
+  156  cd ..
+  157  git add .
+  158  git commit -m "A commit to load files to the B1-Group repo for analysis" 
+  159  git push origin main
+  160  ls -lrt
+  161  git add PavanC_directory/
+  162  git commit -m "A commit to load files to the B1-Group repo for analysis"  PavanC_directory/
+  163  git push
+  164  cd ..
+  165  ls -lrt
+  166  cd success-blueprint/
+  167  ls -lrt
+  168  git branch release01
+  169  ls -lt
+  170  ls -lrt
+  171  git checkout release1
+  172  clear
+  173  sl -lrt
+  174  ls -lrt
+  175  git branch
+  176  ls -lrt
+  177  git branch release01
+  178  git checkout release1
+  179  git checkout release01
+  180  clear
+  181  ls -lrt
+  182  pwd
+  183  touch release_update{001..003}.cxv
+  184  ls -lrt
+  185  git add .
+  186  git commit -m 'Committed the release updates as per request"
+.
+  187  git commit -m 'Committed the release updates as per request"
+
+  188  clear
+  189  git ststus
+  190  git status
+  191  mv release_upd*.cxv release_update00*.csv
+  192  mv release_update001.cxv release_update001.csv
+  193  mv release_update002.cxv release_update002.csv
+  194  mv release_update003.cxv release_update003.csv
+  195  ls -lrt
+  196  git commit -m "Changes committed as per request Id : 12345"
+  197  ls -lrt
+  198  clear
+  199  git status
+  200  git add .
+  201  git status
+  202  git commit -m "Changes committed as per request Id : 12345"
+  203  clear
+  204  git checkout master
+  205  git checkout main
+  206  git merge release01
+  207  git log
+  208  history > pc_20OCT2025.log
+  209  ls -lrt
+  210  git checkout release01
+  211  ls -lrt
+  212  git push origin release01
+  213  git checkout main
+  214  git push
+  215  ls -lrt
+  216  mkdir mylog
+  217  cp -f *.log ./mylog/
+  218  l -lrt
+  219  ls -lrt
+  220  cd mylog/
+  221  ls -lrt
+  222  cd ..
+  223  rm -f pc_20OCT2025.log
+  224  mv mylog mylogs
+  225  ls -lrt
+  226  git add .
+  227  git commit -m "Committing logs for day"
+  228  git push origin main
+  229  git branch patch_Q4
+  230  git checkout patch_Q4
+  231  touch Timedate.xml data_upd.sql
+  232  echo "Some xml file changes the time to milliseconds level" > Timedate.xml 
+  233  echo "Quick post update on the table caaor on post update trigger" > data_upd.sql 
+  234  git add .
+  235  git commit -m "Update on the Q4 patch commited ."
+  236  git push origin patch_Q4
+  237  git checkout main
+  238  ls -lrt
+  239  ls -lrt
+  240  mv release* ./base_dir/
+  241  ls -lrt
+  242  git add .
+  243  git commit -m "Code structured"
+  244  git push origin main
+  245  clear
+  246  git branch patch_Q4 
+  247  git checkout patch_Q4 
+  248  ls -lrt
+  249  mv release_update0* ./base_dri/
+  250  mv release_update0* ./base_dir/
+  251  mv Timedate.xml ./base_dir
+  252  mv *sql ./base_dir/
+  253  ls -lrt
+  254  git add
+  255  git add .
+  256  git commit -m "Code structured"
+  257  git branch main
+  258  git checkout main
+  259  git push origin main
+  260  ls -lrt
+  261  git branch patch_Q4
+  262  git checkout patch_Q4
+  263  git push origin main
+  264  git push origin patch_Q4
+  265  git push origin main
+  266  git checkout main
+  267  git push origin master
+  268  cd ..
+  269  ls -lrt
+  270  cd B1-Group/
+  271  ls -lrt
+  272  cd KrishnaDir/
+  273  ls -lrt
+  274  git fetch --all
+  275  ls -lrt
+  276  git branch -a
+  277  ls -lrt
+  278  git branch release
+  279  git checkout release
+  280  ls -lrt
+  281  git branch -d release
+  282  git checkout main
+  283  git branch -d release
+  284  git branch -a
+  285  git checkout master
+  286  ls -lrt
+  287  git branch -a
+  288  git checkout main
+  289  git brach -d master
+  290  git branch -d master
+  291  clear
+  292  ls -lrt
+  293  cd ..
+  294  ls -lrt
+  295  git branch -a
+  296  git push PavanC_directory/
+  297  git push 
+  298  history > logs_2110_001.log
