@@ -10,3 +10,28 @@ int main() {
 }
 
 ***************************
+
+
+
+####### new update code #### 
+#include <stdio.h>
+int main() {
+   // Declare an integer variable
+   int favorite_number = 42; 
+   
+   printf("Hello, World!\n");
+   // Use %d to substitute the value of the variable
+   printf("My favorite number is: %d\n", favorite_number);
+   
+   return 0;
+}#include <stdio.h>
+int main() {
+   // Declare an integer variable
+   int favorite_number = 42; 
+   
+   printf("Hello, World!\n");
+   // Use %d to substitute the value of the variable
+   printf("My favorite number is: %d\n", favorite_number);
+   
+   return 0;
+
