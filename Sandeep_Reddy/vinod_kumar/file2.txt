@@ -1,0 +1,11 @@
+def greet_user():
+    """Asks the user for their name and prints a greeting."""
+    # 1. Get input from the user
+    name = input("Hello! What is your name? ")
+
+    # 2. Process and generate output
+    print(f"Nice to meet you, {name}! This is a basic Python program.")
+
+# Run the function to start the program
+if __name__ == "__main__":
+    greet_user()
